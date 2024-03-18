@@ -54,6 +54,10 @@ flutter:
     - assets/city2.png
     - assets/city3.png
     - assets/icon_start.png
+    - assets/space1.png
+    - assets/space2.png
+    - assets/space3.png
+
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
