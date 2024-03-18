@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_drive/model/city.dart';
 import 'package:test_drive/theme.dart';
 import 'package:test_drive/widgets/city_card.dart';
 
@@ -41,10 +42,29 @@ class HomePage extends StatelessWidget {
                 height: 150,
                 child: ListView(
                   scrollDirection: Axis.horizontal,
-                  children: const [
-                    CityCard(),
-                    CityCard(),
-                    CityCard(),
+                  children: [
+                    SizedBox(width: edge),
+                    CityCard(
+                      City(
+                        name: 'Bandung',
+                        imageUrl: 'assets/city1.png',
+                      ),
+                    ),
+                    const SizedBox(width: 20),
+                    CityCard(
+                      City(
+                          name: 'Karawang',
+                          imageUrl: 'assets/city2.png',
+                          isPopular: true),
+                    ),
+                    const SizedBox(width: 20),
+                    CityCard(
+                      City(
+                        name: 'Bali',
+                        imageUrl: 'assets/city3.png',
+                      ),
+                    ),
+                    const SizedBox(width: 20),
                   ],
                 ),
               )
