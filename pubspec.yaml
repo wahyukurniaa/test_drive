@@ -57,6 +57,11 @@ flutter:
     - assets/space1.png
     - assets/space2.png
     - assets/space3.png
+    - assets/tips1.png
+    - assets/icon_home.png
+    - assets/icon_email.png
+    - assets/icon_card.png
+    - assets/icon_love.png
 
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
