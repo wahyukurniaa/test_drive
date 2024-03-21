@@ -32,6 +32,7 @@ dependencies:
   flutter:
     sdk: flutter
   google_fonts: ^6.1.0
+  url_launcher: ^6.2.5
 
 dev_dependencies:
   flutter_lints: ^2.0.0
@@ -58,10 +59,21 @@ flutter:
     - assets/space2.png
     - assets/space3.png
     - assets/tips1.png
+    - assets/tips2.png
     - assets/icon_home.png
     - assets/icon_email.png
     - assets/icon_card.png
     - assets/icon_love.png
+    - assets/pic.png
+    - assets/btn_back.png
+    - assets/btn_wishlist.png
+    - assets/icon_kitchen.png
+    - assets/icon_bedroom.png
+    - assets/icon_cupboard.png
+    - assets/photo1.png
+    - assets/photo2.png
+    - assets/photo3.png
+    - assets/btn_maps.png
 
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
